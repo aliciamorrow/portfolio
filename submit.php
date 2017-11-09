@@ -30,6 +30,8 @@
 
   $conn->close();
 
-  $headers = "From :" . $email;
-  mail($recipient,$subject,$message,$headers);
+  $headers = "From: " . $name . " at " . $email;
+  if ($_POST['name'] && $_POST['email'] && $_POST['message']) {
+    mail($recipient,$subject,$message,$headers);
+  }
 ?>

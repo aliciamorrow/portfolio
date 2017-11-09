@@ -5,8 +5,8 @@
   <title>Alicia Morrow - Portfolio</title>
   <!-- Fonts-->
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,900' rel='stylesheet' type='text/css'>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-  <link rel="icon" type="image/png" href="images/m-favicon-blue.png" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,700" rel="stylesheet">
+  <link rel="icon" type="image/png" href="images/m-favicon-purple.png" />
   <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/owl-carousel.css" type="text/css" />
@@ -70,15 +70,34 @@
   <section id="about">
       <div class="container-fluid">
           <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-6 about-text">
+                <div>
                   <h2 data-scroll-reveal="enter left move 10px over 1s after 0.2s">About</h2>
                   <img src="images/lineSeparatorWhite.png" class="img-responsive lineSeparator" data-scroll-reveal="enter left move 10px over 1s after 0.3s" alt="separator">
+                </div>
+                  <h4 data-scroll-reveal="enter left move 10px over 1s after 0.3s">Full Name</h4>
                   <p data-scroll-reveal="enter left move 10px over 1s after 0.3s">
-                      Web development started for me at a young age. The first time I made a website I was in fourth grade. My teacher showed me all the possibilities (which I'll admit were quite limited at the time) in being able to design and add functionality to a website that came from just some simple HTML files.<br /><br />Through the years I've changed and had many more interests, but web development has always been a constant.<br /><br />I earned my Computer Software Engineering degree from the University of Florida in 2015 and through many of my projects I worked on web development. At my internship at IBM in the summer of 2014, three of my projects were web based. I have also used my web skills in creating an online e-commerce site through Shopify that is now closed. And I created and was the webmaster for many websites during my contracting job at cuco.co inc. earlier this year.<br /><br />I have always enjoyed front end development since that very first time I created a website in elementary school. UI Design also interests me and I always strive to improve upon my web design beyond just the aesthetic.
+                    Alicia Morrow
+                  </p>
+                  <h4 data-scroll-reveal="enter left move 10px over 1s after 0.3s">E-mail</h4>
+                  <p data-scroll-reveal="enter left move 10px over 1s after 0.3s">
+                    alicia.morrow11@gmail.com
+                  </p>
+                  <h4 data-scroll-reveal="enter left move 10px over 1s after 0.3s">Location</h4>
+                  <p data-scroll-reveal="enter left move 10px over 1s after 0.3s">
+                    Silicon Valley, California
+                  </p>
+                  <h4 data-scroll-reveal="enter left move 10px over 1s after 0.3s">Background</h4>
+                  <p data-scroll-reveal="enter left move 10px over 1s after 0.3s">
+                    Hi, I'm Alicia Morrow. I graduated with a Computer Software Engineering degree from the University of Florida in 2015.
+                    My interests spread from design, programming, ecommerce and fitness. I've worked as a certified personal trainer and on my own
+                    ecommerce sites and had great experiences exploring those interests. Web design and development has always been my top interest
+                    though, and it's something I have always enjoyed doing and learning more about. I made my first website in fourth grade, and I loved how
+                    endless the possibilities are with something as simple as a few lines of code.
                   </p>
               </div>
               <div class="col-md-6 text-center">
-                <img src="images/wolf.png" class="constellation" data-stellar-ratio="0.2" alt="Wolf Constellation">
+                <img data-scroll-reveal="enter left move 10px over 1s after 0.3s" src="images/wolf-face.png" class="constellation" data-stellar-ratio="0.2" alt="Wolf">
               </div>
           </div>
       </div>
@@ -107,50 +126,52 @@
       <div class="row">
         <h2 data-scroll-reveal="enter top move 10px over 1s after 0.2s"><span>Skills</span></h2>
       </div>
-      <div class="row text-center skills-row">
-        <div class="col-md-4">
-          <i class="fa fa-3x fa-object-group" aria-hidden="true"></i>
-          <h5 class="text-center">Layout</h5>
-          <p>
-            Creating wireframe using Balsamiq
-          </p>
+      <div id="skill-body">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <i data-scroll-reveal="enter top move 10px over 1s after 0.2s" class="fa fa-3x fa-object-group" aria-hidden="true"></i>
+            <h5 class="text-center" data-scroll-reveal="enter top move 10px over 1s after 0.2s">Layout</h5>
+            <p data-scroll-reveal="enter top move 10px over 1s after 0.2s">
+              Creating wireframe using Balsamiq
+            </p>
+          </div>
+          <div class="col-md-4">
+            <i data-scroll-reveal="enter top move 10px over 1s after 0.2s" class="fa fa-3x fa-magic" aria-hidden="true"></i>
+            <h5 data-scroll-reveal="enter top move 10px over 1s after 0.2s">Design</h5>
+            <p data-scroll-reveal="enter top move 10px over 1s after 0.2s">
+              Create scalable vector graphics in Inkscape. Sketch for screen design. Gimp for editing graphics.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <i data-scroll-reveal="enter top move 10px over 1s after 0.2s" class="fa fa-3x fa-code" aria-hidden="true"></i>
+            <h5 data-scroll-reveal="enter top move 10px over 1s after 0.2s">Code</h5>
+            <p data-scroll-reveal="enter top move 10px over 1s after 0.2s">
+              HTML5 and CSS3
+            </p>
+          </div>
         </div>
-        <div class="col-md-4">
-          <i class="fa fa-3x fa-magic" aria-hidden="true"></i>
-          <h5>Design</h5>
-          <p>
-            Create scalable vector graphics in Inkscape. Sketch for screen design. Gimp for editing graphics.
-          </p>
-        </div>
-        <div class="col-md-4">
-          <i class="fa fa-3x fa-code" aria-hidden="true"></i>
-          <h5>Code</h5>
-          <p>
-            HTML5 and CSS3
-          </p>
-        </div>
-      </div>
-      <div class="row text-center skills-row">
-        <div class="col-md-4">
-          <i class="fa fa-3x fa-diamond" aria-hidden="true"></i>
-          <h5 class="text-center">Client<br/>Scripting</h5>
-          <p>
-            Adding dynamic functionality with JavaScript and jQuery.
-          </p>
-        </div>
-        <div class="col-md-4">
-          <i class="fa fa-3x fa-server" aria-hidden="true"></i>
-          <h5>Backend</h5>
-          <p>
-            php server-side coding
-          </p>
-        </div>
-        <div class="col-md-4">
-          <i class="fa fa-3x fa-rocket" aria-hidden="true"></i>
-          <h5>Deploy</h5>
-          <p>
-            Manage domain's DNS settings and host websites.
-          </p>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <i data-scroll-reveal="enter top move 10px over 1s after 0.2s" class="fa fa-3x fa-diamond" aria-hidden="true"></i>
+            <h5 class="text-center" data-scroll-reveal="enter top move 10px over 1s after 0.2s">Client<br/>Scripting</h5>
+            <p data-scroll-reveal="enter top move 10px over 1s after 0.2s">
+              Adding dynamic functionality with JavaScript and jQuery.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <i data-scroll-reveal="enter top move 10px over 1s after 0.2s" class="fa fa-3x fa-server" aria-hidden="true"></i>
+            <h5 data-scroll-reveal="enter top move 10px over 1s after 0.2s">Backend</h5>
+            <p data-scroll-reveal="enter top move 10px over 1s after 0.2s">
+              php server-side coding
+            </p>
+          </div>
+          <div class="col-md-4">
+            <i data-scroll-reveal="enter top move 10px over 1s after 0.2s" class="fa fa-3x fa-rocket" aria-hidden="true"></i>
+            <h5 data-scroll-reveal="enter top move 10px over 1s after 0.2s">Deploy</h5>
+            <p data-scroll-reveal="enter top move 10px over 1s after 0.2s">
+              Manage domain's DNS settings and host websites.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -197,8 +218,9 @@
   <!-- footer -->
   <section id="footer" class="dark">
     <div class="topLine text-center">
+      <img id="footer-logo" src="images/m-icon.png" />
       <p>
-        &copy; 2017.  Alicia Morrow.  All Rights Reserved.
+        &copy; 2017 &#x25b4; Alicia Morrow &#x25b4; All Rights Reserved
       </p>
     </div>
   </section>
@@ -211,10 +233,9 @@
   <script src="assets/js/preloader.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js"></script>
   <script src="assets/js/custom.js"></script>
-  <script src="assets/js/googleMapInit.js"></script>
 
   <script>
-    $.backstretch('images/galaxy2.png');
+    $.backstretch('images/galaxy.png');
   </script>
 
 </body>

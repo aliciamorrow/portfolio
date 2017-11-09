@@ -154,7 +154,7 @@ section{
 
 #resume-btn {
     border-radius: 25px;
-    border: 2px solid #dc6874;
+    border: 2px solid #7accc8;
     background-color: transparent;
     width: 40%;
 }
@@ -168,7 +168,7 @@ section{
 }
 
 #resume-btn:hover {
-    background-color: #dc6874;
+    background-color: #7accc8;
 }
 
 #resume-btn:hover a {
@@ -179,7 +179,7 @@ section{
 
 #submit {
     border-radius: 25px;
-    border: 2px solid #605c82;
+    border: 2px solid #7accc8;
     background-color: transparent;
     width: 40%;
     color: white;
@@ -190,8 +190,8 @@ section{
 }
 
 #submit:hover {
-    background-color: #dc6874;
-    border: 2px solid #dc6874;
+    background-color: #7accc8;
+    border: 2px solid #7accc8;
     color: white;
     letter-spacing: 7px;
     text-decoration: none;
@@ -418,11 +418,12 @@ p.bold{
 }
 
 .constellation{
-    position: relative;
+    position: sticky;
     top: 100px;
     z-index: 1;
-    max-height: 300px;
-    width: auto;
+    max-width: 70%;
+    height: auto;
+    padding-top: 10px;
 }
 
 .timerWrapper{
@@ -499,15 +500,9 @@ p.bold{
 /*<!--About -->*/
 /*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
 
-#about .container-fluid .col-md-6{
-    padding-left: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
 #about {
+    padding: 50px 50px;
     background-color: #433e6b;
-    padding-left: 15px;
     overflow:hidden;
 }
 
@@ -519,14 +514,26 @@ p.bold{
     font-weight: 700;
 }
 
+#about h4 {
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #7accc8;
+    border-radius: 9px;
+    background-color: #7accc8;
+    display: inline-block;
+    padding: 8px;
+}
+
 #about p {
-    color:#e7e7e7;
+    color: #fff;
     z-index: 100;
     position: relative;
-    font-family: 'font-family:''Lato',sans-serif;
+    letter-spacing: 1.5px;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 100;
-    font-size: 13px;
-    line-height: 16px;
+    font-size: 12px;
+    line-height: 20px;
+    padding-left: 10px;
 }
 
 
@@ -558,6 +565,7 @@ p.bold{
     max-width: 600px;
     width: 100%;
     height: 100%;
+    padding: 50px 0px;
 }
 
 .grayBackground {
@@ -708,6 +716,12 @@ p.bold{
     padding-left: 15px;
 }
 
+#skill-body {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    margin: 10px 100px;
+}
+
 #skills h2 {
     color: white;
     z-index: 100;
@@ -715,10 +729,6 @@ p.bold{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     padding-bottom: 20px;
-}
-
-.skills-row {
-    padding: 15px 100px;
 }
 
 #skills i, #skills h5 {
@@ -733,8 +743,8 @@ p.bold{
 }
 
 #skills p {
-    color: #9694aa;
-    font-family:'Lato',sans-serif;
+    color: #fff;
+    font-family:'Montserrat',sans-serif;
     font-weight:100;
     font-size: 14px;
     line-height: 16px;
@@ -798,16 +808,16 @@ label[for=message] {
 }
 
 *::-webkit-input-placeholder {
-    color: #9694aa;
+    color: #bcbcbc;
 }
 *:-moz-placeholder {
-    color: #9694aa;
+    color: #bcbcbc;
 }
 *::-moz-placeholder {
-    color: #9694aa;
+    color: #bcbcbc;
 }
 *:-ms-input-placeholder {
-    color: #9694aa;
+    color: #bcbcbc;
 }
 
 #contact_form #name,
@@ -911,10 +921,16 @@ label[for=message] {
     margin: 0 auto;
     background-color: #222222;
 }
-
-#footer .bottomLine p{
-    color: #a5a5a5;
-    font-size:12px;
+#footer-logo {
+    max-width: 80px;
+    padding: 10px;
+}
+#footer p {
+    color: #e3e3e3;
+    font-size: 9px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 #footer .container{

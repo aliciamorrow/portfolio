@@ -34,6 +34,12 @@ $(document).ready(function () {
       });
     });
 
+    $(document).ready(function () {
+      $(".navbar-nav li a").click(function(event) {
+        $(".navbar-collapse").collapse('hide');
+      });
+    });
+
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     /* contact form  */
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -41,32 +47,37 @@ $(document).ready(function () {
     //on the click of the submit button
     $("#submit").click(function(){
        //get the form values
-       var name = $('#name').val();
-       var email = $('#email').val();
-       var subject = $('subject').val();
-       var message = $('#message').val();
+
+       if($('#name').val() != '' && $('#email').val() != '' && $('#message').val() != '') {
+         var name = $('#name').val();
+         var email = $('#email').val();
+         var subject = $('subject').val();
+         var message = $('#message').val();
 
 
-       //call your input.php script in the background, when it returns it will call the success function if the request was successful or the error one if there was an issue (like a 404, 500 or any other error status)
+         //call your input.php script in the background, when it returns it will call the success function if the request was successful or the error one if there was an issue (like a 404, 500 or any other error status)
 
-       $.ajax({
-          url : "submit.php",
-          type: "POST",
-          data : {name : name, email : email, subject : subject, message : message},
-          success: function(data, status, xhr)
-          {
-              //if success then just output the text to the status div then clear the form inputs to prepare for new data
-              alert('Email Sent!');
-              $('#name').val('');
-              $('#email').val('');
-              $('#subject').val('');
-              $('#message').val('');
-          },
-          error: function (jqXHR, status, errorThrown)
-          {
-              alert('ERROR');
-          }
-      });
+         $.ajax({
+            url : "submit.php",
+            type: "POST",
+            data : {name : name, email : email, subject : subject, message : message},
+            success: function(data, status, xhr)
+            {
+                //if success then just output the text to the status div then clear the form inputs to prepare for new data
+                alert('Email Sent!');
+                $('#name').val('');
+                $('#email').val('');
+                $('#subject').val('');
+                $('#message').val('');
+            },
+            error: function (jqXHR, status, errorThrown)
+            {
+                alert('ERROR');
+            }
+        });
+      } else {
+        return;
+      }
     });
 
 
