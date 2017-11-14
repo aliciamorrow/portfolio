@@ -1,7 +1,7 @@
 <?php
   $name = $_POST['name'];
   $email = $_POST['email'];
-  $recipient = 'alicia.morrow11@gmail.com';
+  $recipient = 'contact@aliciamorrow.me';
   $message = $_POST['message'];
   $formcontent = "From: $name \n Message: $message";
   $okMessage = 'Success';
@@ -9,12 +9,12 @@
   $servername = "localhost";
   $username = "root";
   $password = "";
-  $dbname = "db1";
+  $dbname = "aliciao5_db1";
 
-  if (!$_POST['subject']) {
-    $subject = 'New message from contact form';
-  } else {
+  if (!empty(!$_POST['subject'])) {
     $subject = $_POST['subject'];
+  } else {
+    $subject = 'New message from contact form';
   }
 
   $conn = new mysqli($servername, $username, $password, $dbname);
@@ -33,5 +33,6 @@
   $headers = "From: " . $name . " at " . $email;
   if ($_POST['name'] && $_POST['email'] && $_POST['message']) {
     mail($recipient,$subject,$message,$headers);
+    echo "Email sent!";
   }
 ?>

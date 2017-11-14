@@ -64,7 +64,7 @@ $(document).ready(function () {
             success: function(data, status, xhr)
             {
                 //if success then just output the text to the status div then clear the form inputs to prepare for new data
-                alert('Email Sent!');
+                alert('Email Sent!' + subject + xhr);
                 $('#name').val('');
                 $('#email').val('');
                 $('#subject').val('');

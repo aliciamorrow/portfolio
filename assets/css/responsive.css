@@ -186,8 +186,20 @@
         padding: 50px 15px;
     }
 
+    #about p {
+        font-weight: 400;
+    }
+
     #skills {
         padding: 50px 30px;
+    }
+
+    #skill-body {
+        margin: 0px;
+    }
+    #footer p {
+        font-size: 8px;
+        letter-spacing: 2px;
     }
 
     .navbar-default {

@@ -78,9 +78,7 @@ section{
     margin-bottom:30px;
 }
 .preloaderLogo{
-    min-width: 200px;
-    max-width: 300px;
-    width: 15%;
+    width: 12%;
 }
 
 .black-overlay {
@@ -517,11 +515,6 @@ p.bold{
 #about h4 {
     color: #fff;
     font-size: 15px;
-    border: 1px solid #7accc8;
-    border-radius: 9px;
-    background-color: #7accc8;
-    display: inline-block;
-    padding: 8px;
 }
 
 #about p {
@@ -927,8 +920,9 @@ label[for=message] {
 }
 #footer p {
     color: #e3e3e3;
-    font-size: 9px;
+    font-size: 10px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     letter-spacing: 3px;
     text-transform: uppercase;
 }

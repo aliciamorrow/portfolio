@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   <title>Alicia Morrow - Portfolio</title>
   <!-- Fonts-->
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,900' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,900' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,700" rel="stylesheet">
   <link rel="icon" type="image/png" href="images/m-favicon-purple.png" />
   <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
@@ -44,7 +44,6 @@
       <div class="ip-logo">
           <img class="img-responsive preloaderLogo center-block" src="images/m-icon.png" alt="preloader">
       </div>
-
       <div class="ip-loader">
           <svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
               <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
@@ -182,7 +181,7 @@
   <section id="contact">
     <div class="container">
       <div class="row">
-        <div class="contact-bg col-md-6 col-xs-8 offset-md-3 offset-xs-2 text-center">
+        <div class="contact-bg col-lg-6 col-md-8 offset-lg-3 offset-md-2 text-center">
           <h2 data-scroll-reveal="enter left move 10px over 1s after 0.2s">Contact Me</h2>
           <form method="post" onsubmit="return false">
             <fieldset id="contact_form">
@@ -226,7 +225,7 @@
   </section>
 
 
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   <script type="text/javascript" src="assets/js/scripts.js"></script>
