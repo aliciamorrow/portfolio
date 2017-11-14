@@ -535,10 +535,13 @@ p.bold{
 /*<!--Portfolio -->*/
 /*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
 
-.portfolio-bg {
-    background: #433e6b;
+#portfolio {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.portfolio-bg {
+    background: #433e6b;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -738,8 +741,9 @@ p.bold{
 #skills p {
     color: #fff;
     font-family:'Montserrat',sans-serif;
-    font-weight:100;
+    font-weight:200;
     font-size: 14px;
+    letter-spacing: 1px;
     line-height: 16px;
 }
 

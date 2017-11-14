@@ -5,7 +5,7 @@
   <title>Alicia Morrow - Portfolio</title>
   <!-- Fonts-->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,900' rel='stylesheet' type='text/css'>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,400,700" rel="stylesheet">
   <link rel="icon" type="image/png" href="images/m-favicon-purple.png" />
   <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
