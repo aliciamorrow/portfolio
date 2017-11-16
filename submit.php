@@ -1,38 +1,40 @@
 <?php
+
   $name = $_POST['name'];
   $email = $_POST['email'];
   $recipient = 'contact@aliciamorrow.me';
   $message = $_POST['message'];
   $formcontent = "From: $name \n Message: $message";
-  $okMessage = 'Success';
-  $errorMessage = 'Failure';
-  $servername = "localhost";
-  $username = "root";
-  $password = "";
-  $dbname = "aliciao5_db1";
+  $subject = $_POST['subject'];
 
-  if (!empty(!$_POST['subject'])) {
-    $subject = $_POST['subject'];
-  } else {
+  if(strlen($subject) == 0)
+  {
     $subject = 'New message from contact form';
   }
+
+  $okMessage = 'Success';
+  $errorMessage = 'Failure';
+
+  $servername = "localhost";
+  $username = "aliciao5_main";
+  $password = "dO\$m4YT&Kn?|*Wf";
+  $dbname = "aliciao5_db1";
 
   $conn = new mysqli($servername, $username, $password, $dbname);
   if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
   }
-  $sql ="INSERT INTO `user` (`name`, `email`) VALUES ('$name', '$email')";
-  if($conn->query($sql) === TRUE) {
-    echo "Added to db1";
-  } else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
-  }
+
+  $statement = $conn->prepare("INSERT INTO `user` (`name`, `email`) VALUES (?, ?)");
+  $statement->bind_param('ss', $name, $email);
+  $statement->execute();
+  $statement->close();
 
   $conn->close();
 
-  $headers = "From: " . $name . " at " . $email;
+  $headers = "From: " . $email;
   if ($_POST['name'] && $_POST['email'] && $_POST['message']) {
-    mail($recipient,$subject,$message,$headers);
-    echo "Email sent!";
+    mail($recipient,$subject,$formcontent,$headers);
+    echo json_encode("Email sent!");
   }
 ?>

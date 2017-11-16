@@ -48,12 +48,21 @@ $(document).ready(function () {
     $("#submit").click(function(){
        //get the form values
 
-       if($('#name').val() != '' && $('#email').val() != '' && $('#message').val() != '') {
+      $( "#valid-contact" ).validate({
+        rules: {
+          email: {
+            required: true,
+            email: true
+          }
+        }
+      });
+       var validator = $( "#contact_form" ).validate();
+
+       if($('#name').val() != '' && validator.element( "#email" ) && $('#message').val() != '') {
          var name = $('#name').val();
          var email = $('#email').val();
-         var subject = $('subject').val();
+         var subject = $('#subject').val();
          var message = $('#message').val();
-
 
          //call your input.php script in the background, when it returns it will call the success function if the request was successful or the error one if there was an issue (like a 404, 500 or any other error status)
 
@@ -64,7 +73,7 @@ $(document).ready(function () {
             success: function(data, status, xhr)
             {
                 //if success then just output the text to the status div then clear the form inputs to prepare for new data
-                alert('Email Sent!' + subject + xhr);
+                alert('Email Sent!');
                 $('#name').val('');
                 $('#email').val('');
                 $('#subject').val('');
@@ -268,89 +277,7 @@ $(document).ready(function () {
     }
 
 
-    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-    /* owl-carousels */
-    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-    $("#owl-team").owlCarousel({
-        singleItem:	true,
-        autoPlay:	true,
-        navigation: true,
-        navigationText: [
-            "<i class='fa fa-angle-left fa-4x'></i>",
-            "<i class='fa fa-angle-right fa-4x'></i>"
-        ]
-    });
 
-
-
-    $("#owl-clients").owlCarousel({
-        items:3,
-        navigation: false,
-        itemsDesktop : [1199,3],
-        itemsDesktopSmall : [980,2],
-        itemsTablet: [768,2],
-        itemsMobile : [479,1]
-    });
-
-
-    $("#owl-testimonials").owlCarousel({
-        singleItem:	true,
-        autoPlay:	true
-    });
-
-
-    $("#owl-item").owlCarousel({
-        singleItem:	true,
-        autoPlay:	true,
-        navigation: true,
-        navigationText: [
-            "<i class='fa fa-angle-left fa-2x middleNav'></i>",
-            "<i class='fa fa-angle-right fa-2x middleNav'></i>"
-        ]
-    });
-
-
-    $("#owl-featured").owlCarousel({
-        items:3,
-        itemsDesktop : [1199,3],
-        itemsDesktopSmall : [980,2],
-        itemsTablet: [768,2],
-        itemsMobile : [479,1],
-        navigation: true,
-        navigationText: [
-            "<i class='fa fa-angle-left fa-2x featuredNav'></i>",
-            "<i class='fa fa-angle-right fa-2x featuredNav'></i>"
-        ]
-    });
-
-    $("#owl-blog-single").owlCarousel({
-        singleItem:	true,
-        navigation: true,
-        navigationText: [
-            "<i class='fa fa-angle-left fa-2x blogNav'></i>",
-            "<i class='fa fa-angle-right fa-2x blogNav'></i>"
-        ]
-    });
-
-
-    $('.owl-ecommerce').owlCarousel({
-        singleItem: false,
-        items:4,
-        navigation: false
-    });
-
-    $('.owl-ecommerce2').owlCarousel({
-        singleItem: false,
-        items:4,
-        navigation: false
-    });
-
-
-    $('.owl-ecommerce3').owlCarousel({
-        singleItem: false,
-        items:4,
-        navigation: false
-    });
 
 
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
