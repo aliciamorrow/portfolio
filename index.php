@@ -55,11 +55,12 @@
   <!-- intro -->
   <section id="intro">
     <div class="responsive">
-      <div id="rocketY">
-        <div id="rocketX">
-          <img id="rocketRotate" src="images/rocket.png" />
-        </div>
-      </div>
+      <div id="rocket" data-stellar-ratio="2.5">
+      <img src="images/rocket.png" />
+      <div class="dot dot1"></div>
+      <div class="dot dot2"></div>
+      <div class="dot dot3"></div>
+    </div>
     </div>
       <div class="valign">
         <div class="col-xs-12 text-center">
