@@ -5,13 +5,18 @@ body {
     padding:0;
     margin-left:0;
     margin-right:0;
-
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+}
 
+.preloader {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
 }
 
 
@@ -36,8 +41,11 @@ img {
 }
 
 .valign{
-    position: relative;
-    top: 60%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 90%;
+    transform: translateX(-50%);
 }
 
 .elementvalign{
@@ -155,6 +163,7 @@ section{
     border: 2px solid #7accc8;
     background-color: transparent;
     width: 40%;
+
 }
 
 #resume-btn a {
@@ -164,6 +173,8 @@ section{
     font-size: 14px;
     letter-spacing: 6px;
     transition: all 0.4s ease-in-out;
+    display: block;
+    width: 100%;
 }
 
 #resume-btn:hover {
@@ -259,9 +270,10 @@ h1, h2, h3, h4, h5, h6 {
 
 
 h1{
-    font-size:50px;
+    font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 20px;
+
 }
 
 h2{
@@ -332,6 +344,10 @@ p.bold{
 /*<!--Intro -->*/
 /*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
 
+#intro {
+    overflow: hidden;
+}
+
 #intro h1, #intro p{
     color:white;
 }
@@ -361,27 +377,195 @@ p.bold{
     margin-top:20px;
 }
 
-.AgencyIntro .container{
-    padding-top:160px;
-    padding-bottom:160px;
+.responsive {
+    max-width: 100vw;
+    max-height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
-.PlayTrigger{
-    margin-top:40px;
-    cursor:pointer;
+.responsive::before {
+    content: "";
+    display: block;
+    margin-top: 100%;
 }
 
-.PlayTrigger svg path{
-    fill:white;
+#rocketRotate {
+    animation: rocketRotate 8s 1 4s ease forwards;
 }
 
-
-.PlayTrigger svg:hover path{
-    fill: #aaa;
+@keyframes rocketRotate {
+    0% {
+      transform: rotate(90deg);
+      transform-origin: 0 top;
+    }
+    25% {
+      transform: rotate(45deg);
+      transform-origin: 0 top;
+    }
+    50% {
+      transform: rotate(135deg);
+      transform-origin: 0 top;
+    }
+    75% {
+      transform: rotate(225deg);
+      transform-origin: 0 top;
+    }
+    100% {
+      animation-timing-function: ease-in;
+      transform-origin: 0 top;
+      transform: rotate(360deg);
+    }
 }
 
+#rocketX {
+    max-width: 100px;
+    -webkit-animation: xAxis 8s 1 3s ease-in forwards;
+    animation: xAxis 8s 1 4s ease-in forwards;
+}
 
+#rocketY{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    width: 7.4%;
+    height: 40%;
+    -webkit-animation: yAxis 8s 1 3s ease-out forwards;
+    -webkit-transform-style: preserve-3d;
+    animation: yAxis 8s 1 4s ease-out forwards;
+}
 
+@-webkit-keyframes yAxis {
+    0% {
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-transform: translateY(0%);
+      transform: translateY(0%);
+    }
+    25% {
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-transform: translateY(-300%);
+      transform: translateY(-300%);
+    }
+    50% {
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+      -webkit-transform: translateY(0%);
+      transform: translateY(0%);
+    }
+    75% {
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-transform: translateY(400%);
+      transform: translateY(400%);
+    }
+    100% {
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-transform: translateY(-75%);
+      transform: translateY(-75%);
+    }
+}
+
+@keyframes yAxis {
+    0% {
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-transform: translateY(0%);
+      transform: translateY(0%);
+    }
+    25% {
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-transform: translateY(-300%);
+      transform: translateY(-300%);
+    }
+    50% {
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+      -webkit-transform: translateY(0%);
+      transform: translateY(0%);
+    }
+    75% {
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-transform: translateY(400%);
+      transform: translateY(400%);
+    }
+    100% {
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-transform: translateY(-75%);
+      transform: translateY(-75%);
+    }
+}
+
+@-webkit-keyframes xAxis {
+    0% {
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-transform:  translateX(0%);
+      transform: translateX(0%);
+    }
+    25% {
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-transform:  translateX(350%);
+      transform:  translateX(350%);
+    }
+    50% {
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-transform:  translateX(1700%);
+      transform:  translateX(1700%);
+    }
+    75% {
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-transform:  translateX(700%);
+      transform: translateX(700%);
+    }
+    100% {
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-transform:  translateX(450%);
+      transform:  translateX(450%);
+    }
+}
+
+@keyframes xAxis {
+    0% {
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-transform:  translateX(0%);
+      transform: translateX(0%);
+    }
+    25% {
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-transform:  translateX(350%);
+      transform:  translateX(350%);
+    }
+    50% {
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-transform:  translateX(1700%);
+      transform:  translateX(1700%);
+    }
+    75% {
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-transform:  translateX(700%);
+      transform: translateX(700%);
+    }
+    100% {
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-transform:  translateX(450%);
+      transform:  translateX(450%);
+    }
+}
 
 /*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
 /*<!--Text Separator -->*/
@@ -816,16 +1000,40 @@ label[for=message] {
     padding-top: 5px;
 }
 
-*::-webkit-input-placeholder,
-*:-moz-placeholder ,
-*::-moz-placeholder,
-*:-ms-input-placeholder,
-::placeholder {
-    color: #baa7b3;
-    text-transform: uppercase;
-    font-size: 0.7em;
+::-webkit-input-placeholder{
+    color: #e8d7e1 !important;
+    text-transform: uppercase !important;
+    font-size: 1em;
+    font-weight: 400;
     letter-spacing: 1px;
-    font-weight: 200;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    color: #e8d7e1 !important;
+    text-transform: uppercase !important;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    opacity: 1;
+}
+
+::-ms-placeholder {
+    color: #e8d7e1 !important;
+    text-transform: uppercase !important;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    opacity: 1;
+}
+
+::placeholder {
+    color: #e8d7e1 !important;
+    text-transform: uppercase !important;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    opacity: 1;
 }
 
 #contact_form #name,
@@ -838,8 +1046,10 @@ label[for=message] {
     background: #605c82;
     font-size: 0.6em;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
     color: white;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     width: 100%;
 }
 
@@ -851,8 +1061,9 @@ label[for=message] {
     background: #605c82;
     border-radius: 25px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     color: white;
-    font-size: 0.6em;
+    font-size: 0.65em;
     letter-spacing: 1px;
     width: 100%;
 }

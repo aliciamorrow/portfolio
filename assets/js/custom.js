@@ -158,6 +158,12 @@ $(document).ready(function () {
       });
     });
 
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    /* Rocket Animation */
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    $(window).load(function() {
+      $("body").removeClass("preloader");
+    });
 
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     /* Active Link Scroll */
@@ -187,6 +193,8 @@ $(document).ready(function () {
         }
       });
     });
+
+
 
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     /* Isotope */

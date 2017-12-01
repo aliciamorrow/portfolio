@@ -15,7 +15,7 @@
   <script src="assets/js/modernizr.custom.js"></script>
 </head>
 
-<body id="bigWrapper" data-spy="scroll" data-target=".navbar-inverse">
+<body id="bigWrapper" class="preloader" data-spy="scroll" data-target=".navbar-inverse">
   <header>
     <nav class="navbar navbar-inverse navbar-toggleable-sm fixed-top" id="fixed-navbar">
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +26,7 @@
           </div>
         <div class="collapse navbar-collapse" id="navbar-collapse">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item ml-auto active"><a class="nav-link" href="#intro">Home <span class="sr-only">(current)</span></a></li>
+            <li class="nav-item ml-auto"><a class="nav-link" href="#intro">Home</a></li>
             <li class="nav-item ml-auto"><a class="nav-link" href="#about">About</a></li>
             <li class="nav-item ml-auto"><a class="nav-link" href="#portfolio">Work</a></li>
             <li class="nav-item ml-auto"><a class="nav-link" href="#skills">Skills</a></li>
@@ -54,13 +54,19 @@
 
   <!-- intro -->
   <section id="intro">
-    <!--<div class="black-overlay"></div>-->
-    <div class="container-fluid valign">
-        <div class="col-xs-10 offset-1" >
-          <h1>Hi,<br /> I'm Alicia,</h1>
-          <h2>Web Developer.</h2>
+    <div class="responsive">
+      <div id="rocketY">
+        <div id="rocketX">
+          <img id="rocketRotate" src="images/rocket.png" />
+        </div>
       </div>
     </div>
+      <div class="valign">
+        <div class="col-xs-12 text-center">
+          <h1>Hi, I'm Alicia.</h1>
+          <h2>Web Developer</h2>
+        </div>
+      </div>
   </section>
   <!-- intro end -->
 
@@ -112,7 +118,7 @@
         <img data-scroll-reveal="enter right move 10px over 1s after 0.2s" id="timeline-img" src="images/timeline.png" alt="Resume Timeline" />
       </div>
       <div class="text-center">
-        <button class="btn btn-default" id="resume-btn"><a href="assets/resume-temp.pdf" download>RESUME</a></button>
+        <button class="btn btn-default" id="resume-btn"><a href="assets/Alicia%20Morrow%20Resume.pdf">RESUME</a></button>
       </div>
     </div>
   </section>
