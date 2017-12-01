@@ -56,11 +56,34 @@
   <section id="intro">
     <div class="responsive">
       <div id="rocket" data-stellar-ratio="2.5">
-      <img src="images/rocket.png" />
-      <div class="dot dot1"></div>
-      <div class="dot dot2"></div>
-      <div class="dot dot3"></div>
-    </div>
+        <img src="images/rocket.png" />
+      </div>
+      <div id="exhaust" data-stellar-ratio="2.5"></div>
+      <ul class="fumes">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
     </div>
       <div class="valign">
         <div class="col-xs-12 text-center">
