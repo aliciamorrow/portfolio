@@ -10,13 +10,15 @@
 
 /*iPad Landscape Mode and Large Tablets */
 @media (max-width: 1024px){
+    .rocket {
+        top: 35%;
+    }
 
 
 }
 
 /*Small Desktop and Very Small Notebook */
 @media (max-width: 992px){
-
 
 }
 
@@ -28,6 +30,14 @@
         padding-left: 10px;
         padding-right: 10px;
     }
+    .rocket {
+        top: 50%;
+    }
+
+}
+
+@media (max-width: 800px){
+
 }
 
 
@@ -40,6 +50,7 @@
         margin-left:0;
         z-index:6;
     }
+
 
 
     #portfolio .captionWrapper .valign{
@@ -79,14 +90,19 @@
 
 }
 
-/*iPad Portrait Mode, iPad Mini and Small Tablets */
-@media (max-width: 767px) {
+
+@media (max-width: 700px) {
 
 
 }
 
 /*Medium Smart Phones v2*/
 @media screen and (max-width: 640px){
+  .rocket {
+      top: 35%;
+  }
+
+
     h1 {
         font-size: 36px;
         letter-spacing: 10px;
@@ -116,16 +132,11 @@
     }
 }
 
-@media screen and (max-width: 600px){
-
+@media screen and (max-width: 600px) {
     h1 {
         font-size: 30px;
         letter-spacing: 10px;
     }
-
-}
-
-@media screen and (max-width: 600px) and (orientation : landscape){
     #intro .separator{
         margin-top:15px;
         margin-bottom:15px;
@@ -135,8 +146,17 @@
 
 }
 
+@media screen and (max-width: 550px){
+
+}
+
+@media screen and (max-width: 500px){
+
+}
+
 
 @media screen and (max-width: 480px){
+
 
 
     .topLine {
@@ -210,11 +230,18 @@
 }
 
 @media screen and (max-width: 430px){
-    h1 {
-      font-size: 27px;
+    #intro h1 {
+      font-size: 1.7rem;
+      letter-spacing: 0.3rem;
     }
     h2 {
       font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 470px){
+    .fumes li:nth-child(7) {
+        padding-bottom: 24%;
     }
 }
 

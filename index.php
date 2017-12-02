@@ -54,39 +54,38 @@
 
   <!-- intro -->
   <section id="intro">
+    <svg id="fume-clouds" width="100%" height="100%" preserveAspectRatio="xMinYMax meet" viewBox="0 0 1920 831" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="Desktop" transform="translate(0.000000, -249.000000)">
+        <g id="Fumes" transform="translate(-50.000000, 236.000000)">
+          <g id="Clouds" fill="#7DCCC7">
+            <path d="M354.76614,844 L0,844 L0,162.835301 C32.8078398,151.239041 67.6383875,145 103.729079,145 C299.438805,145 458.092885,328.464584 458.092885,554.779617 C458.092885,667.663954 418.620642,769.88734 354.76614,844 Z" id="Combined-Shape"></path>
+            <path d="M670.750361,844 L335.257544,844 C287.398257,792.110476 257.490119,718.281291 257.490119,636.361386 C257.490119,479.312929 367.410406,352 503.003953,352 C638.597499,352 748.517787,479.312929 748.517787,636.361386 C748.517787,718.281291 718.609648,792.110476 670.750361,844 Z" id="Combined-Shape"></path>
+            <path d="M1496.91462,844 L992.156524,844 C986.864731,820.009232 984.051383,794.868493 984.051383,768.966019 C984.051383,602.194792 1100.67413,467 1244.53557,467 C1388.39702,467 1505.01976,602.194792 1505.01976,768.966019 C1505.01976,794.868493 1502.20641,820.009232 1496.91462,844 Z" id="Combined-Shape"></path>
+            <path d="M1039.80927,844 L580.981242,844 C576.332477,822.500906 573.863636,799.996154 573.863636,776.821429 C573.863636,625.041745 679.76245,502 810.395257,502 C941.028064,502 1046.92688,625.041745 1046.92688,776.821429 C1046.92688,799.996154 1044.45804,822.500906 1039.80927,844 Z" id="Combined-Shape"></path>
+            <path d="M2020,9.9475983e-14 L2020,844 L1781.03235,844 C1704.7356,753.725217 1657.71739,630.259632 1657.71739,494.103451 C1657.71739,245.49294 1814.47562,39.1927439 2020,9.01501096e-14 Z" id="Combined-Shape"></path>
+            <path d="M1789.65867,844 L1471.88283,844 C1404.26504,787.134682 1360.30632,694.915607 1360.30632,590.821505 C1360.30632,418.054959 1481.39737,278 1630.77075,278 C1780.14413,278 1901.23518,418.054959 1901.23518,590.821505 C1901.23518,694.915607 1857.27646,787.134682 1789.65867,844 Z" id="Combined-Shape"></path>
+          </g>
+          <g id="Bubbles" opacity="0.9" transform="translate(615.000000, 421.000000)"></g>
+            <circle id="bubble4" fill="#7DCCC7" cx="1205" cy="537" r="116"><animate attributeType="xml" attributeName="r" from="116" to="116" values="116; 174; 92.8; 116" keyTimes="0; 0.5; 0.51; 1" begin="1s" dur="3s" repeatCount="indefinite" /> <animate attributeType="xml" attributeName="fill-opacity" from="0" to="1" values="1; 0; 1" keyTimes="0; 0.5; 1" begin="1s" dur="3s" repeatCount="indefinite" /> </circle>
+            <circle id="bubble3" fill="#7DCCC7" cx="1010.5" cy="574.5" r="78.5"><animate attributeType="xml" attributeName="r" from="78.5" to="78.5" values="78.5; 117.8; 39.3; 78.5" keyTimes="0; 0.5; 0.51; 1" begin="2s" dur="4s" repeatCount="indefinite" /> <animate attributeType="xml" attributeName="fill-opacity" from="0" to="1" values="1; 0; 1" keyTimes="0; 0.5; 1" begin="2s" dur="4s"repeatCount="indefinite" /></circle>
+            <circle id="bubble2" fill="#7DCCC7" cx="907.5" cy="598.5" r="102.5"><animate attributeType="xml" attributeName="r" from="102.5" to="102.5" values="102.5; 153.8; 51.3; 102.5" keyTimes="0; 0.5; 0.51; 1" dur="3.5s" repeatCount="indefinite" /> <animate attributeType="xml" attributeName="fill-opacity" from="0" to="1" values="1; 0; 1" keyTimes="0; 0.5; 1" dur="3.5s"repeatCount="indefinite" /></circle>
+            <circle id="bubble1" fill="#7DCCC7" cx="727" cy="534" r="112"><animate attributeType="xml" attributeName="r" from="112" to="112" values="112; 168; 56; 112" keyTimes="0; 0.5; 0.51; 1" begin="2s" dur="2.8s" repeatCount="indefinite" /> <animate attributeType="xml" attributeName="fill-opacity" from="0" to="1" values="1; 0; 1" keyTimes="0; 0.5; 1" begin="2s" dur="2.8s"repeatCount="indefinite" /></circle>
+          </g>
+        </g>
+      </g>
+    </svg>
     <div class="responsive">
       <div id="rocket" data-stellar-ratio="2.5">
         <img src="images/rocket.png" />
       </div>
       <div id="exhaust" data-stellar-ratio="2.5"></div>
-      <ul class="fumes">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
     </div>
       <div class="valign">
-        <div class="col-xs-12 text-center">
+        <div class="col-xs-12 title text-center">
           <h1>Hi, I'm Alicia.</h1>
           <h2>Web Developer</h2>
         </div>
