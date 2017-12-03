@@ -11,7 +11,7 @@
 /*iPad Landscape Mode and Large Tablets */
 @media (max-width: 1024px){
     .rocket {
-        top: 35%;
+        top: 30%;
     }
 
 
@@ -50,7 +50,9 @@
         margin-left:0;
         z-index:6;
     }
-
+    #footer p {
+        font-size: 6.5px;
+    }
 
 
     #portfolio .captionWrapper .valign{
@@ -98,6 +100,9 @@
 
 /*Medium Smart Phones v2*/
 @media screen and (max-width: 640px){
+  #footer p {
+      font-size: 5.5px;
+  }
   .rocket {
       top: 35%;
   }
@@ -146,7 +151,11 @@
 
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 570px){
+  #footer p {
+      font-size: 4.5px;
+      letter-spacing: 2px;
+  }
 
 }
 
@@ -216,10 +225,6 @@
 
     #skill-body {
         margin: 0px;
-    }
-    #footer p {
-        font-size: 8px;
-        letter-spacing: 2px;
     }
 
     .navbar-default {

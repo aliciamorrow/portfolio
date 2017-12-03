@@ -17,6 +17,9 @@ $(document).ready(function () {
         introHeight();
     });
 
+    
+
+
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     /* Navbar Toggle Transparency  */
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
