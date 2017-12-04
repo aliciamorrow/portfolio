@@ -393,6 +393,7 @@ p.bold{
 
 #fume-clouds {
     z-index: 100;
+    -webkit-animation: fumes 10s infinite;
     animation: fumes 10s infinite;
     position: relative;
 }
@@ -431,19 +432,6 @@ p.bold{
     background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1));
     height: 1500px;
     left: calc(50% - 17px);
-    animation: exhaust 0.2s infinite;
-}
-
-@keyframes exhaust {
-    0% {
-      background: linear-gradient(to bottom, transparent 10%, $white 100%);
-    }
-    50% {
-      background: linear-gradient(to bottom, transparent 8%, $white 100%);
-    }
-    75% {
-      background: linear-gradient(to bottom, transparent 12%, $white 100%);
-    }
 }
 
 @keyframes fumes {
