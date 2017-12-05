@@ -115,17 +115,174 @@
                   <p data-scroll-reveal="enter left move 10px over 1s after 0.3s">
                     Silicon Valley, California
                   </p>
-                  <h4 data-scroll-reveal="enter left move 10px over 1s after 0.3s">Background</h4>
-                  <p data-scroll-reveal="enter left move 10px over 1s after 0.3s">
-                    Hi, I'm Alicia Morrow. I graduated with a Computer Software Engineering degree from the University of Florida in 2015.
-                    My interests spread from design, programming, ecommerce and fitness. I've worked as a certified personal trainer and on my own
-                    ecommerce sites and had great experiences exploring those interests. Web design and development has always been my top interest
-                    though, and it's something I have always enjoyed doing and learning more about. I made my first website in fourth grade, and I loved how
-                    endless the possibilities are with something as simple as a few lines of code.
-                  </p>
+                  <h4 data-scroll-reveal="enter left move 10px over 1s after 0.3s">Interests</h4>
+                  <div class="row">
+                    <svg id="interest-svg" width="2279px" height="110px" viewBox="0 0 2350 450" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+                        <desc>Created with Sketch.</desc>
+                        <defs>
+                            <filter x="-1.9%" y="-1.7%" width="103.7%" height="104.7%" filterUnits="objectBoundingBox" id="filter-1">
+                                <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+                                <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                                <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+                                <feMerge>
+                                    <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                                    <feMergeNode in="SourceGraphic"></feMergeNode>
+                                </feMerge>
+                            </filter>
+                            <filter x="-1.7%" y="-3.1%" width="104.3%" height="107.7%" filterUnits="objectBoundingBox" id="filter-2">
+                                <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+                                <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                                <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+                                <feMerge>
+                                    <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                                    <feMergeNode in="SourceGraphic"></feMergeNode>
+                                </feMerge>
+                            </filter>
+                            <polygon id="path-3" points="273 0 416 286 130 286"></polygon>
+                            <filter x="-2.1%" y="-2.1%" width="104.2%" height="104.2%" filterUnits="objectBoundingBox" id="filter-4">
+                                <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+                                <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                                <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+                            </filter>
+                            <filter x="-20.0%" y="-1.5%" width="140.0%" height="104.2%" filterUnits="objectBoundingBox" id="filter-5">
+                                <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+                                <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                                <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+                                <feMerge>
+                                    <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                                    <feMergeNode in="SourceGraphic"></feMergeNode>
+                                </feMerge>
+                            </filter>
+                            <filter x="-20.0%" y="-1.5%" width="140.0%" height="104.3%" filterUnits="objectBoundingBox" id="filter-6">
+                                <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+                                <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                                <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+                                <feMerge>
+                                    <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                                    <feMergeNode in="SourceGraphic"></feMergeNode>
+                                </feMerge>
+                            </filter>
+                            <filter x="-3.6%" y="-2.0%" width="107.3%" height="105.6%" filterUnits="objectBoundingBox" id="filter-7">
+                                <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+                                <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                                <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+                                <feMerge>
+                                    <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                                    <feMergeNode in="SourceGraphic"></feMergeNode>
+                                </feMerge>
+                            </filter>
+                            <filter x="-2.0%" y="-1.9%" width="104.0%" height="105.3%" filterUnits="objectBoundingBox" id="filter-8">
+                                <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+                                <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                                <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+                                <feMerge>
+                                    <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                                    <feMergeNode in="SourceGraphic"></feMergeNode>
+                                </feMerge>
+                            </filter>
+                            <rect id="path-9" x="72" y="78" width="212" height="134" rx="8"></rect>
+                        </defs>
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Desktop" transform="translate(-86.000000, -71.000000)">
+                                <g id="interests" transform="translate(90.000000, 75.000000)">
+                                    <g id="dog" filter="url(#filter-1)" transform="translate(504.000000, 6.000000)">
+                                        <g id="nala" transform="translate(0.000000, 102.000000)">
+                                            <path d="M140.024606,79.9723757 C143.716626,89.4654982 145.916873,99.0441104 146.625347,108.708212 C148.863007,139.231537 146.625347,147.980523 146.153865,175.758498 C156.054977,174.321706 157.469422,175.758498 160.769792,179.111012 C165.12434,185.103934 164.070163,188.689624 157.469422,191.563208 C151.811643,193.478931 143.796458,193.478931 133.423865,191.563208 C131.537939,174.321706 131.066457,168.574539 131.066457,158.995927 C125.88016,166.658816 116.922012,171.448122 122.108308,174.800637 C135.309791,180.068873 129.171384,189.242269 122.108308,192.042139 C113.15016,193 46.8911417,191.923845 42.4279335,191.563208 C39.4524614,191.322783 38.3523379,189.247417 39.1275629,185.33711 C36.5360335,187.265862 34.3357865,188.383367 32.5268218,188.689624 C12.7245985,192.042139 4.23793132,178.632082 1.40904227,167.137747 C-0.476883767,158.038065 -0.46246391,144.386712 1.40904227,144.149078 C3.28054844,143.911443 4.70941283,160.432718 8.9527464,166.179886 C14.139043,174.321706 17.4394136,175.758498 23.0971917,177.67422 C27.8120067,178.632082 31.7410193,177.67422 34.8842294,174.800637 C25.1327053,160.27334 22.6181372,148.779005 27.3405252,140.317633 C37.2302775,122.597598 49.1623527,123.22252 66.4734904,108.708212 C74.7349553,101.78149 82.4358199,92.2028777 89.5760843,79.9723757 L140.024606,79.9723757 Z" id="Path-2" fill="#bfbfbf"></path>
+                                            <path d="M114.590848,89.5690608 C124.935746,89.5690608 136.645928,85.1151635 143.739702,79.0988544 C152.848552,71.3735368 155.963415,60.527546 155.963415,47.4502762 C155.963415,33.6568816 154.14882,18.7253021 143.739702,11.0425133 C136.594595,5.76883462 124.208328,5.33149171 114.590848,5.33149171 C104.742639,5.33149171 89.8520199,5.5372786 82.6211378,11.0425133 C72.5032681,18.7457571 73.2182818,39.3570914 73.2182818,52.9233386 C73.2182818,64.0027057 78.672694,72.8799109 85.4419946,79.0988544 C92.885104,85.936825 102.216541,89.5690608 114.590848,89.5690608 Z" id="Oval-2" fill="#bfbfbf"></path>
+                                            <path d="M80.8589183,1.10340936 L88.0102981,9.14820263 C89.6925857,10.4064964 89.2779927,12.6838449 88.0102981,14.3536571 L72.2772625,52.2115078 C71.0095679,53.8813199 68.2384462,53.4698015 66.5561586,52.2115078 L54.1604336,31.862913 C52.478146,30.6046193 52.892739,25.1146155 54.1604336,23.4448034 L75.1378144,1.10340936 C76.4055091,-0.566402806 79.1766307,-0.15488436 80.8589183,1.10340936 Z" id="Rectangle" fill="#7accc8"></path>
+                                            <path d="M165.736967,2.1697077 L172.888347,10.214501 C174.570634,11.4727947 174.156042,13.7501433 172.888347,15.4199554 L157.155311,53.2778061 C155.887617,54.9476183 153.116495,54.5360998 151.434207,53.2778061 L139.038482,32.9292114 C137.356195,31.6709177 137.770788,26.1809139 139.038482,24.5111017 L160.015863,2.1697077 C161.283558,0.499895537 164.054679,0.911413983 165.736967,2.1697077 Z" id="Rectangle-Copy" fill="#7accc8" transform="translate(155.963415, 27.723757) scale(-1, 1) translate(-155.963415, -27.723757) "></path>
+                                            <ellipse id="Oval-3" fill="#fff" cx="91.7743902" cy="43.1850829" rx="5.83536585" ry="5.86464088"></ellipse>
+                                            <ellipse id="Oval-3-Copy" fill="#fff" cx="135.27439" cy="43.1850829" rx="5.83536585" ry="5.86464088"></ellipse>
+                                            <path d="M112.463415,92.091487 C116.513366,92.091487 121.67997,95.5770213 126.824095,92.091487 C129.153587,90.513079 133.682927,88.6059526 133.682927,82.0705757 C133.682927,78.6509582 131.530505,76.021587 130.253511,73.4848012 C125.538064,64.1174276 122.108647,53.3149171 112.463415,53.3149171 C102.818182,53.3149171 100.24612,63.0281981 95.1019956,73.4848012 C93.9872596,75.7507559 91.2439024,78.5415317 91.2439024,82.0705757 C91.2439024,87.734569 95.5783403,90.722194 97.6740576,92.091487 C103.675536,96.0127131 107.781064,92.091487 112.463415,92.091487 Z" id="Oval-5" fill="#eee"></path>
+                                            <path d="M112.463415,77.839779 C118.285842,75.1568348 122.012195,72.6543451 122.012195,69.5673677 C122.012195,66.4803902 117.73706,63.9779006 112.463415,63.9779006 C107.189769,63.9779006 102.914634,66.4803902 102.914634,69.5673677 C102.914634,72.6543451 107.106782,75.1568348 112.463415,77.839779 Z" id="Oval-4" fill="#7accc8"></path>
+                                        </g>
+                                        <g id="maverick" transform="translate(253.000000, 147.500000) scale(-1, 1) translate(-253.000000, -147.500000) translate(132.000000, 0.000000)">
+                                            <path d="M175.370909,38.958065 C176.283075,39.1068472 177.196565,39.3026285 178.108586,39.5470039 C191.099468,43.0279002 199.418722,55.1962918 198.379582,68.0236644 C220.3457,77.7894927 208.772737,72.6443156 240.933921,86.9427274 C231.799885,111.664521 209.12998,125.632042 187.228769,121.696605 C184.109186,121.136046 178.466914,120.320526 175.144871,119.024577 C174.568206,130.045345 173.799314,141.659455 172.838193,153.866906 L92.7488987,141.341992 C122.771488,54.9040336 139.632392,8.42268512 143.331611,1.89794665 C147.030829,-4.62679181 150.684025,5.67147103 154.291198,32.7927352 C165.279028,12.1148933 171.46136,6.26993332 172.838193,15.2578552 C173.930898,22.3909973 174.775137,30.2910672 175.370909,38.958065 Z M172.696037,153.866906 C171.794628,165.72059 171.794628,177.681022 172.696037,189.748201 C175.543067,227.861461 172.696037,238.785971 172.096159,273.471223 C184.69359,271.677158 186.493222,273.471223 190.692366,277.657374 C196.232765,285.140496 194.891509,289.617806 186.493222,293.205935 C179.294691,295.598022 169.096771,295.598022 155.899464,293.205935 C153.499953,271.677158 152.900075,264.500899 152.900075,252.540468 C146.301422,262.108813 134.903747,268.089029 141.502401,272.27518 C158.298974,278.853417 150.488926,290.30787 141.502401,293.803957 C130.104726,295 45.8017325,293.656248 40.123082,293.205935 C36.337315,292.905726 34.9376005,290.3143 35.9239386,285.431655 C29.9620653,288.273381 25.805334,289.694245 23.4537445,289.694245 C10.3247222,289.694245 6.39647577,285.431655 0.726680153,274.379496 C-1.67283035,263.017086 4.92582353,266.007194 10.3247222,273.183453 C14.7238247,279.961031 21.457264,279.658273 30.52504,272.27518 C19.8024315,246.772218 17.445333,228.738047 23.4537445,218.172668 C35.9239386,199.496403 51.5340812,186.84646 73.5594714,168.723022 C84.0707382,160.073899 90.467214,150.948004 92.7488987,141.345337 L172.696037,153.866906 Z" id="Combined-Shape" fill="#B1AEB1"></path>
+                                            <ellipse id="Oval" fill="#fff" cx="178.568282" cy="64.1996403" rx="6.92951542" ry="6.89748201"></ellipse>
+                                            <path d="M225.249154,87.0143885 C224.658698,84.9573449 225.639832,83.0744341 230.579551,81.7086331 C233.68288,80.850582 237.236478,80.1431479 241.240344,79.5863309 C240.347806,85.4195107 237.657073,88.956681 233.168143,90.1978417 C230.306824,90.9889783 225.724777,88.6713737 225.249154,87.0143885 Z" id="Path-4" fill="#7accc8" transform="translate(233.168143, 84.972004) scale(-1, 1) translate(-233.168143, -84.972004) "></path>
+                                        </g>
+                                    </g>
+                                    <g id="hiking" filter="url(#filter-2)" transform="translate(1406.000000, 0.000000)">
+                                        <polygon id="Triangle" fill="#7accc8" points="109.5 68 219 286 0 286"></polygon>
+                                        <g id="Triangle-2">
+                                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                                            <use fill-opacity="0.8" fill="#cfcccc" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                        </g>
+                                        <circle id="Oval-8" fill="#e9e6e6" cx="178" cy="70" r="34"></circle>
+                                    </g>
+                                    <g id="art" transform="translate(1972.000000, 41.000000)">
+                                        <g id="Group" filter="url(#filter-5)" transform="translate(129.500000, 130.500000) rotate(-45.000000) translate(-129.500000, -130.500000) translate(112.000000, -35.000000)">
+                                            <path d="M4.6825528,1.70530257e-13 L21.2221111,1.70530257e-13 C28.5260372,36.346691 32.0613907,74.4739955 31.8281717,114.381913 C31.3836786,190.442583 27.6623508,271.853551 19.1392006,271.853551 C10.6160505,271.853551 6.75925002,199.822407 1.14719927,114.381913 C-1.06336729,80.7272112 0.11508389,42.5999067 4.6825528,1.70530257e-13 Z" id="Path-6" fill="#D8D8D8" transform="translate(15.952388, 135.926775) rotate(180.000000) translate(-15.952388, -135.926775) "></path>
+                                            <path d="M13.0808081,270.997149 C9.00711062,276.691312 6.65020826,282.92366 6.01010101,289.694192 C5.20258512,298.235437 6.04942105,306.972623 9.54545455,313.230471 C14.8484848,323.788801 25.2508538,331.957647 28.989899,330.827688 C25.4545455,323.788801 23.0976431,315.063514 21.9191919,304.651827 C24.2760943,311.544071 26.6329966,317.923062 28.989899,323.788801 C32.6131772,319.956393 36.2307427,305.399108 34.2929293,291.563897 C33.2279025,283.960032 30.2817746,277.727684 25.4545455,272.866853 L13.0808081,270.997149 Z" id="Path-7" fill="#eee"></path>
+                                            <rect id="Rectangle-3" fill="#7accc8" x="9.19189761" y="270.997149" width="19.4444444" height="3.51944349" rx="1.75972174"></rect>
+                                        </g>
+                                        <g id="Group-2" filter="url(#filter-6)" transform="translate(131.500000, 129.000000) rotate(45.000000) translate(-131.500000, -129.000000) translate(114.000000, -35.000000)">
+                                            <path d="M4.84192377,1.70530257e-13 L21.9836253,1.70530257e-13 C29.55346,36.2287305 33.2175225,74.2322955 32.9758128,114.010695 C32.5151374,189.824516 28.65833,270.97127 19.8248839,270.97127 C10.9914378,270.97127 6.99422574,199.173898 1.17786127,114.010695 C-1.11318372,80.4652169 0.108170443,42.4616518 4.84192377,1.70530257e-13 Z" id="Path-6-Copy" fill="#D8D8D8" transform="translate(16.522051, 135.485635) rotate(180.000000) translate(-16.522051, -135.485635) "></path>
+                                            <polygon id="Path-8" fill="#eee" points="11.1501949 273.625668 4.38577178 297.550374 21.437755 328 34.9666011 297.550374 28.202178 273.625668"></polygon>
+                                            <rect id="Rectangle-3-Copy" fill="#7accc8" x="9.51543692" y="270.117647" width="20.1523438" height="3.50802139" rx="1.7540107"></rect>
+                                            <ellipse id="Oval-11" stroke="#433e6b" stroke-width="0.3" fill="#7accc8" cx="20.3351535" cy="298.974686" rx="4.59076557" ry="4.30088904"></ellipse>
+                                            <path d="M20.6908499,303.44385 L21.4236624,327.649198" id="Line" stroke="#433e6b" stroke-width="0.2" stroke-linecap="square"></path>
+                                        </g>
+                                    </g>
+                                    <g id="fitness" filter="url(#filter-7)" transform="translate(1063.000000, 37.000000)">
+                                        <path d="M34.2811855,82 C9.48450589,38.1316926 0.437068724,13.8353993 7.13887404,9.11112001 C12.1530232,5.57651408 53.5075236,0.00859263014 95,1.00070655e-05 C136.694468,-0.00861439759 178.526561,5.55930705 183.061263,9.11112001 C189.092888,13.8353993 181.050722,38.1316926 158.934764,82 L129.781911,65.8024711 C139.164439,50.5329257 144.525883,39.059676 145.866244,31.3827222 C123.750286,25.3086489 69.4656634,25.3086489 45.3391643,31.3827222 C48.0198864,36.7818985 53.716421,48.2551482 62.4287679,65.8024711 L34.2811855,82 Z" id="Path-5" fill="#7accc8"></path>
+                                        <path d="M96.5,248.999999 C112.718449,248.999999 128.002418,249.019953 141.418732,241.912969 C172.089793,225.665679 193,193.298589 193,156.021276 C193,102.437905 149.795478,59 96.5,59 C43.2045216,59 0,102.437905 0,156.021276 C0,192.568952 20.0996579,224.396743 49.7915769,240.940491 C63.6316492,248.651906 79.5558342,248.999999 96.5,248.999999 Z" id="Oval-10" fill="#7accc8"></path>
+                                        <ellipse id="Oval-10" fill="#ACACAC" cx="97.5" cy="155" rx="63.5" ry="64"></ellipse>
+                                        <text id="15" font-family="Avenir-Heavy, Avenir" font-size="48" font-weight="600" letter-spacing="0.600000024" fill="#FFFFFF">
+                                            <tspan x="65.984" y="163">15</tspan>
+                                        </text>
+                                        <text id="KG" font-family="Avenir-Heavy, Avenir" font-size="24" font-weight="600" fill="#FFFFFF">
+                                            <tspan x="81.444" y="193">KG</tspan>
+                                        </text>
+                                    </g>
+                                    <g id="coding" filter="url(#filter-8)" transform="translate(0.000000, 20.000000)">
+                                        <rect id="Rectangle-2" fill="#D8D8D8" x="0" y="0" width="354" height="266" rx="8"></rect>
+                                        <rect id="Rectangle-2" fill="#FFFFFF" opacity="0.7" x="0" y="25" width="354" height="241" rx="8"></rect>
+                                        <g id="Rectangle-4">
+                                            <use fill="#7dccc8" fill-rule="evenodd" xlink:href="#path-9"></use>
+                                            <rect x="72.5" y="78.5" width="211" height="133" rx="8"></rect>
+                                        </g>
+                                        <text id="&lt;/&gt;" font-family="CourierNewPS-BoldMT, Courier New" font-size="72" font-weight="bold" fill="#FFFFFF">
+                                            <tspan x="112.689453" y="161">&lt;/&gt;</tspan>
+                                        </text>
+                                        <ellipse id="Oval-9" fill="#686393" cx="16.5" cy="12" rx="6.5" ry="7"></ellipse>
+                                        <ellipse id="Oval-9" fill="#7F7AA9" cx="33.5" cy="12" rx="6.5" ry="7"></ellipse>
+                                        <ellipse id="Oval-9" fill="#9792C2" cx="51.5" cy="12" rx="6.5" ry="7"></ellipse>
+                                    </g>
+                                  <!--  <g id="interest-labels" transform="translate(35.000000, 354.000000)" font-size="50" font-family="Montserrat" letter-spacing="1.66666663" fill="#FFFFFF" text-transform="uppercase" font-weight="normal">
+                                        <text id="Coding">
+                                            <tspan x="19.763889" y="50">Coding</tspan>
+                                        </text>
+                                        <text id="Fitness">
+                                            <tspan x="1012.86667" y="50">Fitness</tspan>
+                                        </text>
+                                        <text id="calligraphy">
+                                            <tspan x="1870.03333" y="50">calligraphy</tspan>
+                                        </text>
+                                        <text id="hiking">
+                                            <tspan x="1471.875" y="50">hiking</tspan>
+                                        </text>
+                                        <text id="my-dogs">
+                                            <tspan x="550.341667" y="50">dogs</tspan>
+                                        </text>
+                                    </g>-->
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                  </div>
               </div>
-              <div class="col-md-6 text-center">
-                <img data-scroll-reveal="enter left move 10px over 1s after 0.3s" src="images/wolf-face.png" class="constellation" data-stellar-ratio="0.2" alt="Wolf">
+              <div class="col-md-6">
+                <img data-scroll-reveal="enter left move 10px over 1s after 0.3s" src="images/wolf-face.png" id="wolf-face" alt="Wolf">
+                <h4 data-scroll-reveal="enter left move 10px over 1s after 0.3s">Background</h4>
+                <p data-scroll-reveal="enter left move 10px over 1s after 0.3s">
+                  I graduated with a Computer Software Engineering degree from the University of Florida in 2015.
+                  My interests spread from design, programming, ecommerce and fitness. I've worked as a certified personal trainer and on my own
+                  ecommerce sites and had great experiences exploring those interests. Web design and development has always been my main passion
+                  though, and it's something I have always enjoyed doing and learning more about. I made my first website in fourth grade, and I loved how
+                  endless the possibilities are with something as simple as a few lines of code.
+                </p>
               </div>
           </div>
       </div>
